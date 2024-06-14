@@ -1,0 +1,14 @@
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\JzarciaRecuperacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\JzarciaRecuperacion.AssemblyInfoInputs.cache
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\JzarciaRecuperacion.AssemblyInfo.cs
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\JzarciaRecuperacion.csproj.CoreCompileInputs.cache
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\bin\Debug\net6.0\JzarciaRecuperacion.exe
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\bin\Debug\net6.0\JzarciaRecuperacion.deps.json
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\bin\Debug\net6.0\JzarciaRecuperacion.runtimeconfig.json
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\bin\Debug\net6.0\JzarciaRecuperacion.dll
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\bin\Debug\net6.0\JzarciaRecuperacion.pdb
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\JzarciaRecuperacion.dll
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\refint\JzarciaRecuperacion.dll
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\JzarciaRecuperacion.pdb
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\JzarciaRecuperacion.genruntimeconfig.cache
+C:\Users\csi22-jzarcia\source\repos\JzarciaRecuperacion\obj\Debug\net6.0\ref\JzarciaRecuperacion.dll
