@@ -18,6 +18,7 @@ namespace JzarciaRecuperacion.Controladores
         {
             FicherosInterfaz fi = new FicherosImplementacion();
             MenuInterfaz mi= new MenuImplementacion();
+            PropietarioInterfaz pi = new PropietarioImplementacion();
             bool cerrarMenu = false;
             int opcionSeleccionada;
             fi.cargaInicial();
@@ -38,6 +39,7 @@ namespace JzarciaRecuperacion.Controladores
                             break;
                         case 2:
                             fi.ficheroLog("Se ha seleccionado la opcion 2");
+                            pi.altaPropietario();
                             break;
                         default:
                             fi.ficheroLog("Se ha seleccionado la opcion default");

@@ -7,23 +7,47 @@ using System.Threading.Tasks;
 
 namespace JzarciaRecuperacion.Servicios
 {
+
+    /// <summary>
+    /// clase que contiene lso metodos de propietarios
+    /// </summary>
     internal class PropietarioImplementacion : PropietarioInterfaz
     {
 
         public void altaPropietario()
         {
-            PropietarioDto nuevoPropietario = new PropietarioDto();
+            string valido = "n";
             Console.WriteLine("Escriba su dni: ");
+            string respuestaUsu = Console.ReadLine();
+
+            PropietarioDto nuevoPropietario = new PropietarioDto();
+            do
+            {
+                respuestaUsu = Console.ReadLine();
+
+                comprovarDni(respuestaUsu);
+
+            } while (valido != "n");
             nuevoPropietario.DniPropietario = Console.ReadLine();
             nuevoPropietario.IdPropietario = Util.Utilidades.crearIdPropietario();
-
+            Controladores.Program.listaPropietarios.Add(nuevoPropietario);
 
         }
 
-        private string comprovarDni()
+        /// <summary>
+        /// metodo que comprueva que el dni sean 9 caracteres
+        /// </summary>
+        /// <param name="respuestaUsu"></param>
+        /// <returns></returns>
+        private string comprovarDni(string respuestaUsu)
         {
-            Console.WriteLine("");
-            string valido = Console.ReadLine();
+            int numChr = respuestaUsu.Length;
+            string valido = "s";
+
+            if (numChr < 9)
+            {
+                valido = "n";
+            }
 
             return valido;
         }
