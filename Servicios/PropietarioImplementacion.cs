@@ -23,6 +23,7 @@ namespace JzarciaRecuperacion.Servicios
             PropietarioDto nuevoPropietario = new PropietarioDto();
             do
             {
+                Console.WriteLine("Escriba su dni: ");
                 respuestaUsu = Console.ReadLine();
 
                 comprovarDni(respuestaUsu);
@@ -46,6 +47,7 @@ namespace JzarciaRecuperacion.Servicios
 
             if (numChr < 9)
             {
+
                 valido = "n";
             }
 
