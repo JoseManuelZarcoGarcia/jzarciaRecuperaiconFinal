@@ -30,7 +30,7 @@ namespace JzarciaRecuperacion.Servicios
                     nuevoVehiculo.Matricula = campos[0];
                     DateTime fechMatriculacion = Convert.ToDateTime(campos[1]);
                     nuevoVehiculo.FchMatriculacion = fechMatriculacion;
-
+                    Controladores.Program.listaVehiculos.Add(nuevoVehiculo);
 
                     idPropietario = Util.Utilidades.crearIdPropietario();
                     dniPropietario = campos[2];
@@ -38,7 +38,7 @@ namespace JzarciaRecuperacion.Servicios
                     
 
                     PropietarioDto nuevoPropietario = new PropietarioDto(idPropietario, dniPropietario,  fchCompra,  matricula,  esHistorico);
-
+                    Controladores.Program.listaPropietarios.Add(nuevoPropietario);
                 }
 
 

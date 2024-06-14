@@ -14,5 +14,10 @@ namespace JzarciaRecuperacion.Servicios
         /// <param name="mensaje"></param>
         public void ficheroLog(string mensaje);
 
+        /// <summary>
+        /// Metodo que lee un archivo y rellena las listas con la infomacion del archivo
+        /// </summary>
+        public void cargaInicial();
+
     }
 }
